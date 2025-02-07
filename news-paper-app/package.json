@@ -1,0 +1,74 @@
+{
+  "name": "news-paper-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.2",
+    "@mui/material": "^6.4.2",
+    "@reduxjs/toolkit": "^2.5.1",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.6.0",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "browserify-zlib": "^0.2.0",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.6",
+    "nodemailer": "^6.10.0",
+    "path-browserify": "^1.0.1",
+    "querystring-es3": "^0.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "build": "webpack --mode production"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
